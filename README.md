@@ -20,22 +20,23 @@ Pandas
 Scikit-learn
 
 # Usage
-To use the prediction model, follow these steps:
-1. Clone the repository:
+1. Clone the repository to your local machine:
 ```shell
-git clone https://github.com/yourusername/prediction-model.git
-cd prediction-model
+git clone https://github.com/RahulPatil-Tech/Prediction_Model_-Data_Science_Salaries.git
 ```
 2. Install the required dependencies:
-
 ```shell
 pip install -r requirements.txt
 ```
-3. Obtain the dataset and place it in the repository's root directory.
+3. Navigate to the project directory:
 ```shell
-python predict_salary.py
+cd prediction-model-salaries
 ```
-The script will load the dataset, preprocess the data, train the prediction model, and generate salary predictions for the years 2020 to 2030.
+4. Launch Jupyter Notebook:
+```shell
+jupyter notebook
+```
+5. Open the <b>_Prediction_Model.ipynb_</b> notebook in Jupyter Notebook and follow the instructions provided in the notebook to train and evaluate the prediction model.
 
 # Model Evaluation
 The prediction model is evaluated using various metrics such as mean squared error (MSE), mean absolute error (MAE), and R-squared (R^2) score. The evaluation results are displayed in the notebook, along with visualizations of the predicted salary trends.
