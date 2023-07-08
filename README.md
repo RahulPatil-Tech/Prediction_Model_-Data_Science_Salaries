@@ -13,11 +13,10 @@ The dataset contains the following columns:
 
 # Dependencies
 The following dependencies are required to run the prediction model:
-
-Python 3.7 or above
-NumPy
-Pandas
-Scikit-learn
+1. Python 3.7 or above</br>
+2. NumPy</br>
+3. Pandas</br>
+4. Scikit-learn</br>
 
 # Usage
 1. Clone the repository to your local machine:
